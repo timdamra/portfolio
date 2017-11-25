@@ -1,4 +1,4 @@
 node_modules/
 dist/bundle.js
-dist/bundle.map.js
+dist/bundle.js.map
 dist/index.html

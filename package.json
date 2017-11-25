@@ -2,13 +2,15 @@
   "name": "Portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "start": "node server.js",
     "serve": "webpack-dev-server",
-    "postinstall": "npm run build:prod"
+    "postinstall": "webpack -p --env production"
   },
   "keywords": [],
   "author": "",
