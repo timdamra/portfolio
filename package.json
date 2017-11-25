@@ -9,8 +9,7 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "start": "node server.js",
-    "serve": "webpack-dev-server",
-    "postinstall": "webpack -p --env production"
+    "serve": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
