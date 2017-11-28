@@ -1,11 +1,17 @@
 import React from 'react';
 
-const AboutMe = props => {
+const Skills = props => {
   return (
     <div className="hd-container">
       <h3 style={{ marginTop: '80px' }} className="title hd-font">
-        ABOUT ME
+        SKILLS
       </h3>
+      <a
+        style={{ margin: '10px 0 10px 0' }}
+        href="https://drive.google.com/open?id=1JNUYjb1ub83pVfC-KA-wOC_d8uDYA4JX"
+      >
+        <h5>My Resume</h5>
+      </a>
       <p>
         Well, lets start with the obvious I LOVE to code, code and code. I've
         especially come to love working with JavaScript both on the client side
@@ -81,4 +87,4 @@ const AboutMe = props => {
   );
 };
 
-export default AboutMe;
+export default Skills;

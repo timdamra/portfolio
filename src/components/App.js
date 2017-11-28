@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import NavTabs from './NavTabs';
 import Landing from './Landing';
 import Portfolio from './Portfolio';
-import AboutMe from './AboutMe';
+import Skills from './Skills';
 import Footer from './Footer';
 
 const NotFound = props => {
@@ -17,7 +17,7 @@ const App = props => {
       <NavTabs />
       <Switch>
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/aboutme" component={AboutMe} />
+        <Route path="/skills" component={Skills} />
         <Route path="/" component={Landing} />
         <Route component={NotFound} />
       </Switch>

@@ -8,12 +8,10 @@ const Intro = props => {
       <div className="grid-wrapper-info">
         <div>
           <p className="hd-font-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            soluta impedit non hic, accusamus perferendis amet architecto quod
-            ducimus sit ullam ab quisquam porro incidunt eos! Molestias beatae
-            iure nihil sed dolorum, ad provident eveniet voluptate tempora a
-            voluptatum. Nisi blanditiis quisquam enim. Recusandae architecto
-            perferendis fugit ex sunt?
+            Welcome to my site! I'm Hatim Damra, a web developer from Chicago,
+            IL. Please have look at the projects and apps I've worked on in the
+            "Portfolio" section. Email me at hdamra@gmail.com for any inquiries,
+            thanks again!
           </p>
         </div>
         <div>

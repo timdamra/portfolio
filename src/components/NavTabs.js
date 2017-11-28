@@ -46,8 +46,8 @@ export default class NavTabs extends React.Component {
             <Link to="/portfolio" className="link menu-item">
               Portfolio
             </Link>
-            <Link to="/aboutme" className="link menu-item">
-              About Me
+            <Link to="/skills" className="link menu-item">
+              Skills
             </Link>
           </div>
           <a onClick={this.handleToggle} className="icon">
