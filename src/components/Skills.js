@@ -10,7 +10,7 @@ const Skills = props => {
         style={{ margin: '10px 0 10px 0' }}
         href="https://drive.google.com/open?id=1JNUYjb1ub83pVfC-KA-wOC_d8uDYA4JX"
       >
-        <h5>My Resume</h5>
+        <h4 style={{ color: 'darkgray' }}>My Resume</h4>
       </a>
       <p>
         Well, lets start with the obvious I LOVE to code, code and code. I've

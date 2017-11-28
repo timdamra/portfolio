@@ -76,8 +76,8 @@ export default class NavTabs extends React.Component {
             </Link>
           </div>
           <div>
-            <Link onClick={this.closeMenu} to="/aboutme" className="link">
-              About Me
+            <Link onClick={this.closeMenu} to="/skills" className="link">
+              Skills
             </Link>
           </div>
         </div>
