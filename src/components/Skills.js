@@ -8,7 +8,7 @@ const Skills = props => {
       </h3>
       <a
         style={{ margin: '10px 0 10px 0' }}
-        href="https://drive.google.com/open?id=1JNUYjb1ub83pVfC-KA-wOC_d8uDYA4JX"
+        href="https://drive.google.com/open?id=1wvQ6G-KCreStjbI7_EUL3UEExtQnOph1"
       >
         <h4 style={{ color: 'darkgray' }}>My Resume</h4>
       </a>
