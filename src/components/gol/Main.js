@@ -6,7 +6,7 @@ import Panel from './Panel';
 import '../../bootstrap.min.css';
 import './index.css';
 
-class Main extends Component {
+export default class Main extends Component {
   constructor(props) {
     super(props);
 
@@ -147,5 +147,3 @@ class Main extends Component {
 function arrayClone(arr) {
   return JSON.parse(JSON.stringify(arr));
 }
-
-export default Main;

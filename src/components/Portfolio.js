@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 const Portfolio = props => {
   return (
     <div className="hd-container">
@@ -95,9 +97,9 @@ const Portfolio = props => {
           <div className="hd-container-grid">
             <div>
               <ul>
-                <li className="hd-font-li center">Game of Life</li>
-                <li className="hd-font-li center">Tic Tac Toe</li>
-                <li className="hd-font-li center">Rock Paper Scissors</li>
+                <li className="hd-font-li center">
+                  <Link to="/gol">Game of Life - React</Link>
+                </li>
               </ul>
             </div>
             <div>
