@@ -1,26 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import NavTabs from './NavTabs';
-import Landing from './Landing';
+import Navbar from './Navbar';
+import Main from './Main';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
-import Main from './gol/Main';
 import Footer from './Footer';
 
-const NotFound = props => {
-  return <h3 className="hd-font">404: Sorry Page Not Found</h3>;
+const NotFound = () => {
+  return (
+    <div>
+      <h2>404: Page Not Found</h2>
+    </div>
+  );
 };
 
 const App = props => {
   return (
     <div>
-      <NavTabs />
+      <Navbar />
       <Switch>
-        <Route path="/gol" component={Main} />
+        <Route path="/" component={Main} exact />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/skills" component={Skills} />
-        <Route path="/" component={Landing} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

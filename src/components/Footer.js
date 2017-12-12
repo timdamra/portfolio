@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Footer extends Component {
-  render() {
-    return (
-      <div id="footer">
-        <footer className="grid-wrapper-footer">
+const Footer = props => {
+  return (
+    <div id="footer">
+      <div id="footer-layout" className="row text-center">
+        <div className="col">
           <div>
             <i
               className="footer-item fa fa-facebook fa-3x"
@@ -20,11 +20,15 @@ export default class Footer extends Component {
               aria-hidden="true"
             />
           </div>
+        </div>
+        <div id="ideas" className="col">
           <div>
-            <h3 className="hd-font">BRINGING IDEAS TO LIFE</h3>
+            <h3 id="hd-font-footer">BRINGING IDEAS TO LIFE</h3>
           </div>
-        </footer>
+        </div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default Footer;

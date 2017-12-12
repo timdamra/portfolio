@@ -11,7 +11,7 @@ const Header = props => {
   );
 };
 
-const Landing = props => {
+const Main = props => {
   return (
     <div>
       <Header />
@@ -23,4 +23,4 @@ const Landing = props => {
   );
 };
 
-export default Landing;
+export default Main;
