@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* Layout - Structure */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.hd-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* DOM Elements */
+
+ul {
+  list-style: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+/* Fonts */
+
+#skills h4 {
+  text-decoration: underline;
+  margin-bottom: 3vw;
+}
+
+/* Navbar */
+
+.hd-nav {
+  width: 100%;
+}
+
+.menu-line {
+  padding-bottom: 12px;
+}
+
+.menu-item-big {
+  display: none;
+}
+
+.open-menu {
+  display: block;
+  z-index: 100;
+}
+
+.open-menu ul {
+  list-style: none;
+}
+
+.open-menu ul li {
+  border-bottom: 1px solid black;
+  margin-right: 15px;
+}
+
+.open-menu ul li:hover {
+  background-color: silver;
+}
+
+.icon {
+  display: inline-block;
+  text-align: right;
+}
+
+.icon button {
+  border: none;
+}
+
+/* Intro */
+
+#hd-intro {
+  padding: 8px 6px;
+}
+
+#hd-para {
+  text-align: center;
+  padding: 0 5px;
+}
+
+#hd-para p {
+  line-height: normal;
+}
+
+#hd-intro-img {
+  display: none;
+}
+
+/* Grid */
+
+.grid-img {
+  max-width: 95px;
+  max-height: 110px;
+}
+
+.img-box {
+  margin: 10px auto;
+}
+
+div.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+div.col {
+  padding-right: 4px;
+}
+
+/* Portfolio Component */
+
+.white {
+  margin: 8px;
+  padding: 15px 0;
+}
+
+.silver {
+  background-color: #cdd2d8;
+  margin: 8px;
+  padding: 15px 0;
+  border-radius: 2px;
+}
+
+.silver img,
+.white img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.white ul,
+.silver ul {
+  margin-top: 4vh;
+}
+
+.white ul li,
+.silver ul li {
+  padding: 4px 0;
+}
+
+/* Footer */
+
+#footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  background-color: silver;
+}
+
+#footer i {
+  margin: 4px;
+  padding: 4px;
+}
+
+#ideas {
+  display: none;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) {
+  /* Navbar */
+
+  .ll {
+    border: 1px solid black;
+  }
+
+  .hd-nav {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .menu-line {
+    border-bottom: 1px solid black;
+    padding-bottom: 15px;
+  }
+
+  .menu-item-big {
+    display: inline-block;
+  }
+
+  .menu-item-big:hover {
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+  .open-menu {
+    display: none;
+  }
+
+  .open-menu ul {
+    list-style: none;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  /* Intro */
+
+  #hd-intro {
+    margin: 50px 0;
+  }
+
+  #hd-intro img {
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 10px 5px 5px silver;
+  }
+
+  #hd-intro-img {
+    display: inline-block;
+  }
+
+  #hd-para {
+    margin-top: 20px;
+  }
+
+  #hd-para p {
+    line-height: 2;
+    font-size: 28px;
+  }
+
+  /* Footer */
+
+  #footer i {
+    margin: 12px;
+    padding: 8px;
+  }
+
+  #ideas {
+    display: inline-block;
+  }
+
+  /* Fonts */
+
+  .hd-font {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .hd-text-shadow {
+    text-shadow: 3px 3px 3px gray;
+  }
+
+  #hd-font-footer {
+    padding-top: 6px;
+    font-weight: bolder;
+    font-size: 2.8em;
+  }
+
+  /* Images - Other Media */
+
+  #parallax {
+    background-image: url("https://cascadingmedia.com/assets/images/services/responsive-web-design-428f4afc.svg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 500px;
+  }
+
+  .grid-img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .img-box {
+    margin: 24px 0;
+  }
+}

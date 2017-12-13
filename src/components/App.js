@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Main from './Main';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
+import GOL from './gol/Main';
 import Footer from './Footer';
 
 const NotFound = () => {
@@ -23,6 +24,7 @@ const App = props => {
         <Route path="/" component={Main} exact />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/skills" component={Skills} />
+        <Route path="/gol" component={GOL} />
         <Route component={NotFound} />
       </Switch>
       <Footer />
