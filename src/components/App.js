@@ -1,11 +1,12 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Navbar from './Navbar';
+import NavMenu from './NavMenu';
 import Main from './Main';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
 import GOL from './gol/Main';
+import Crypto from './crypto/Crypto';
 import Footer from './Footer';
 
 const NotFound = () => {
@@ -19,12 +20,13 @@ const NotFound = () => {
 const App = props => {
   return (
     <div>
-      <Navbar />
+      <NavMenu />
       <Switch>
         <Route path="/" component={Main} exact />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/skills" component={Skills} />
         <Route path="/gol" component={GOL} />
+        <Route path="/crypto" component={Crypto} />
         <Route component={NotFound} />
       </Switch>
       <Footer />

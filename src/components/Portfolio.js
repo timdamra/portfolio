@@ -6,6 +6,23 @@ const Portfolio = props => {
     <div className="hd-container text-center">
       <h2>PORTFOLIO</h2>
       <div>
+        <div className="silver">
+          <div className="row">
+            <div className="col">
+              <ul>
+                <li>App for checking price of popular crypto coins</li>
+                <li>React JS & CryptoCompare API</li>
+                <li>Uses the styled-components library for CSS</li>
+              </ul>
+            </div>
+            <div className="col">
+              <img src="/assets/coins-with-shadows.png" />
+              <Link to="/crypto">
+                <h4>CryptoCurrency Check</h4>
+              </Link>
+            </div>
+          </div>
+        </div>
         <div className="white">
           <div className="row">
             <div className="col">
