@@ -19,6 +19,7 @@
     "axios": "^0.17.1",
     "ccxt": "^1.10.391",
     "express": "^4.16.2",
+    "html-webpack-plugin": "^2.30.1",
     "morgan": "^1.9.0",
     "react": "^16.1.0",
     "react-dom": "^16.1.0",
@@ -47,7 +48,6 @@
     "eslint-plugin-react": "^7.4.0",
     "file-loader": "^1.1.5",
     "html-loader": "^0.5.1",
-    "html-webpack-plugin": "^2.30.1",
     "style-loader": "^0.19.0"
   }
 }
