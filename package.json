@@ -9,7 +9,8 @@
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "start": "node server.js",
-    "serve": "webpack-dev-server"
+    "serve": "webpack-dev-server",
+    "heroku-postbuild": "npm run build:prod"
   },
   "keywords": [],
   "author": "",
