@@ -4,8 +4,6 @@ import { QueryInput, Title, Button, CryptoList, ErrSpan } from './styles';
 import CoinInfo from './CoinInfo';
 import { switchQuery } from './switchQuery';
 
-let exchange = new ccxt['binance']();
-
 export default class Crypto extends Component {
   state = {
     query: '',
